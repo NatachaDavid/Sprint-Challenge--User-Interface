@@ -66,57 +66,57 @@ p {
     line-height: 1.4;
 }
 
-
 .container {
     width: 800px;
-    margin: auto;
+    margin: 0 auto;
 }
 
-.header nav {
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-}
-.header nav a {
-    text-decoration: none;
-
-    color: black;
-}
-.top-imgage {
-    margin-top: 20px;
-    margin-bottom: 20px;
-   justify-content: center;
-}
-.header nav a {
-    text-decoration: none;
-    color: #b0b0b0;
-}
-
-.header nav a:hover {
-    text-decoration: underline;
-    color: black;
-}
-
-.header nav {
-    margin: 30px 0 0 80px;
-}
-.top-image {
-    margin: 30px 0 0 80px;
-    align-content: center;
-    display: flex;
-    margin: 40px;
-}
-
-.top-content {
+.header {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline; 
+}
+
+.logo {
+    justify-content: center;
+    margin-top: 5px;
+
+}
+
+
+.nav {
+    display: flex;
     justify-content: space-evenly;
+    width: 49%;
+    margin-top: 5px;
+}
+
+
+.jumbo{
+   
+    max-width: 100%;
+    padding: 20px;
+    
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.container .top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 49%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -140,6 +140,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
+    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -147,82 +148,51 @@ p {
     justify-content: center;
 }
 
-#box1 { 
+#box1 {
     background: teal;
-  }
+}
 
-#box2 { 
+#box2 {
     background: gold;
 }
 
-#box3 { 
+#box3 {
     background: cadetblue;
-  }
+}
 
-#box4 { 
+#box4 {
     background: coral;
 }
 
-#box5 { 
-    background: crimson;
-  }
 
-#box6 { 
+#box5 {
+    background: crimson;
+}
+
+#box6 {
     background: forestgreen;
 }
 
-#box7 { 
+#box7 {
     background: darkorchid;
-  }
+}
 
-#box8 { 
+#box8 {
     background: hotpink;
 }
 
-#box9 { 
+#box9 {
     background: indigo;
-  }
+}
 
-#box10 { 
+#box10 {
     background: dodgerblue;
-}
- 
-.cta {
-    display: flex;
-    margin-top: 72px;
-    justify-content: flex-end;
-}
-
-.cta .cta-text {
-    font-size: 72px;
-    text-align: center;
-    letter-spacing: 5px;
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
-    align-items: center;
-    margin: 0 82px 0 0;
-}
-
-.cta .cta-text button {
-    border: 1px double black;
-    font-size: 16px;
-    background: white;
-    width: 170px;
-    height: 32px;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.cta .cta-text button:hover {
-    background: black;
-    color: white;
 }
 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .bottom-content .text-container {
@@ -232,8 +202,6 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
-
 
 footer {
     width: 100%;
