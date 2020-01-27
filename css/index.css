@@ -221,3 +221,86 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About page styling starts here */
+
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline; 
+}
+
+.logo {
+    justify-content: center;
+    margin-top: 5px;
+
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 49%;
+    margin-top: 5px;
+}
+
+
+.jumbo{
+   
+    max-width: 100%;
+    padding: 20px;
+  
+}
+
+.nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav a:hover {
+background: purple;
+color: yellow
+font-weight: bold;
+}
+
+
+.about-page header{
+    padding-bottom:2%;
+    border-bottom: 1px dashed black;
+}
+.about-content-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about-content{
+    width:48%;
+    border-width: 80%;
+    border-bottom: 1px dashed black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+.about-content h2{
+    padding-top:2%;
+}
+.about-content p{
+    padding-bottom: 8%;
+}
+.about-content a{
+    border-width: 5px;
+    border: 2px solid black;
+    text-align: center;
+    width:40%;
+    padding: 3% 7% 3% 7%;
+    text-decoration: none;
+    margin-top: 2%;
+    color: black;
+    border-radius: 12px;
+}
+.about-worktogether{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
